@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+option go_package = "gengo";
+
 message CreateLaptopRequest { Laptop laptop = 1; }
 
 message CreateLaptopResponse { string id = 1; }
